@@ -1,0 +1,20 @@
+.Copyright {
+    font-size: calc(8px + 1vmin);
+    color: aliceblue;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.Footer {
+    min-width: 100vw;
+    padding: 10px;
+    background: #282828;
+    float: bottom;
+    text-align: center;
+}
+
+.footerIcon {
+    display: inline-block;
+    margin: 5px;
+    max-width: 30px;
+}

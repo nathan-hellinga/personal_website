@@ -1,0 +1,16 @@
+.button {
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    max-width: 200px;
+    transition: background-color 0.15s ease-out, color 0.15s ease-out;
+}
+
+.button:hover {
+    background-color: white;
+    color: #121212;
+}

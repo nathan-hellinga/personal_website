@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import './navbar.css'
 import {
   Collapse,
@@ -8,11 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavLink } from 'reactstrap';
 
 
 class NavBar extends React.Component {
@@ -58,10 +53,10 @@ class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="https://github.com/nathan-hellinga">Projects</NavLink>
+                <NavLink onClick={() => this.props.changePage('Projects')}>Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/nathan-hellinga">Resume</NavLink>
+                <NavLink onClick={() => this.props.changePage('Resume')}>Resume</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

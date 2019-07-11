@@ -19,10 +19,10 @@ class Footer extends React.Component {
           <Row>
             <Col>
               <a href={'https://github.com/nathan-hellinga'}>
-                <img src={logoGithub} className={'footerIcon'}/>
+                <img src={logoGithub} className={'footerIcon'} alt={'Github Logo'}/>
               </a>
               <a href={'https://ca.linkedin.com/in/nathan-hellinga-945054b6'}>
-                <img src={logoLinkedin} className={'footerIcon'}/>
+                <img src={logoLinkedin} className={'footerIcon'} alt={'LinkedIn Logo'}/>
               </a>
             </Col>
           </Row>

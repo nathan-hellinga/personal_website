@@ -9,15 +9,11 @@ moment().format();
 
 class Home extends React.Component {
   
-  constructor() {
-    super();
-  }
-  
   render() {
     return(
       <div>
         <div className={'imageOverlay'}>
-          <img src={mainPic} className={'fullWidthImage'}/>
+          <img src={mainPic} className={'fullWidthImage'} alt={'Banner'}/>
           <div className={'imageTitle'}>
             <h1 className={'lightFont'}>://DEVELOPER</h1>
             <h2 className={'lightFont'}>Nathan Hellinga</h2>
@@ -42,8 +38,8 @@ class Home extends React.Component {
         <Container className={'contentBlock'}>
           <Row>
             <Col>
-              <h1 className={'lightFont'}>
-                Hi, I'm Nathan, A {this.getAge()} year old fourth year Computer Science student at Brock University. Here is some stuff.
+              <h1 className={'lightFont center-text'}>
+                Hi, I'm Nathan, A fourth year Computer Science student at Brock University. Here is some stuff.
               </h1>
             </Col>
           </Row>
@@ -53,12 +49,9 @@ class Home extends React.Component {
               <h3 className={''}>
                 About Me
               </h3>
-              <ul className={''}>
-                <li>My favorite number is a million, I love my toast smeared with thicc avocados, one of my biggest passions is not being able to afford a house.</li>
-                <li>I enjoy long walks on the beach with my organically sourced iced coffee drank through a reusable stainless steel straw.</li>
-                <li>I'm legally required to tell you that I drink IPA's.</li>
-
-              </ul>
+              <p>
+                I, Nathan Hellinga, am a 4th year computer science student at Brock University. Currently, I work for the Ontario Ministry of Transportation as a Developer where I've done work involving AI, Machine Learning, Computer vision and much more. Throughout my life I have always been intrigued and inspired by space, the final frontier, the great expanse, and aspire to one day contribute to the exploration and discovery of our universe.
+              </p>
             </Col>
             
             <Col md='4'>
@@ -95,10 +88,10 @@ class Home extends React.Component {
         <Container className={'contentBlock'}>
           <Row>
             <Col>
-              <Button text={'Projects'} clicked={this.getAge}/>
+              <Button text={'Projects'} clicked={() => this.props.changePage('Projects')}/>
             </Col>
             <Col>
-              <Button text={'Resume'} clicked={this.getAge}/>
+              <Button text={'Resume'} clicked={() => this.props.changePage('Resume')}/>
             </Col>
           </Row>
         </Container>

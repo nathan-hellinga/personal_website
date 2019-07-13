@@ -35,7 +35,7 @@
 
 .avatar {
     border-radius: 50%;
-    border: 4px solid #459ab7;
+    /*border: 2px solid #459ab7;*/
     width: 90%;
     margin: 5%;
 }
@@ -83,9 +83,24 @@
     text-align: center;
 }
 
+.alignRight {
+    clear: both;
+    font-style: italic;
+    color: grey;
+}
+
+.alignLeft {
+    float: left;
+}
+
 @media (min-width: 768px) {
     .responsive-align {
         text-align: left;
+    }
+
+    .alignRight {
+        float: right;
+        clear: none;
     }
 }
 
@@ -107,18 +122,16 @@ div.resumeItem > p:first-child {
 }
 
 .resumeItem *{
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 
-.alignLeft {
-    float: left;
-}
 
-.alignRight {
-    float: right;
-}
 
 .resumeItem {
     margin-bottom: 15px;
+}
+
+.test {
+    margin: 50px;
 }
 

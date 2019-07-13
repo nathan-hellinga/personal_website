@@ -1,13 +1,6 @@
 import React from 'react';
 import './navbar.css'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink } from 'reactstrap';
+import {Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink} from 'reactstrap';
 
 
 class NavBar extends React.Component {
@@ -35,8 +28,6 @@ class NavBar extends React.Component {
   }
   
   handleScroll = (event) => {
-    // let scrollTop = event.srcElement.body.scrollTop, itemTranslate = Math.min(0, scrollTop/3 - 60);
-    // console.log(window.pageYOffset);
     if (window.pageYOffset !== 0){
       this.setState({atTop: false});
     }else{
@@ -48,7 +39,8 @@ class NavBar extends React.Component {
     return(
       <div>
         <Navbar scrolling dark expand="md" fixed="top" className={this.state.atTop ? '' : 'bgdark'}>
-          <NavbarBrand href="/"><h1 style={{'fontWeight': '200', 'letterSpacing': '-9px'}}>NH</h1></NavbarBrand>
+          <NavbarBrand onClick={() => this.props.changePage('Home')}><h1
+              style={{'fontWeight': '200', 'letterSpacing': '-9px'}}>NH</h1></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

@@ -11,3 +11,7 @@
 .bgdark {
     background-color: #282828!important;
 }
+
+.navbar-brand {
+    cursor: pointer;
+}

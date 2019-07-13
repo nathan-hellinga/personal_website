@@ -1,8 +1,9 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import mainPic from '../images/home.jpg';
+import {Col, Container, Row} from 'reactstrap';
+import mainPic from '../images/italy.jpg';
 import './home.css';
 import Button from '../components/button'
+
 var moment = require('moment');
 moment().format();
 

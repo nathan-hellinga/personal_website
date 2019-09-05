@@ -44,9 +44,9 @@ class NavBar extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink onClick={() => this.props.changePage('Projects')}>Projects</NavLink>
-              </NavItem>
+                {/*<NavItem>*/}
+                {/*  <NavLink onClick={() => this.props.changePage('Projects')}>Projects</NavLink>*/}
+                {/*</NavItem>*/}
               <NavItem>
                 <NavLink onClick={() => this.props.changePage('Resume')}>Resume</NavLink>
               </NavItem>

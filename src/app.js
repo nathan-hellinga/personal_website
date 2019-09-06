@@ -3,41 +3,39 @@ import Footer from './components/footer';
 import NavBar from './components/navbar'
 import Home from './pages/home'
 import Resume from './pages/resume'
+import {BrowserRouter as Router, Route} from "react-router-dom";
 //TRACKING
 import ReactGA from 'react-ga';
+import ScrollToTop from "./components/ScrollToTop";
 
 
-class App extends React.Component {
-  
+export default class App extends React.Component {
+
   constructor() {
     super();
     ReactGA.initialize('UA-143798056-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
-
-
-    this.changePage = this.changePage.bind(this);
-      this.state = {
-          page: 'Home'
-      };
   }
 
+
   render() {
+
     return(
       <div className={'App'}>
-        <NavBar changePage={this.changePage}/>
-          {this.state.page === 'Home' ? <Home changePage={this.changePage}/>: null}
-          {this.state.page === 'Resume' ? <Resume changePage={this.changePage}/>: null}
-        <Footer/>
+        <Router>
+          <ScrollToTop>
+            <div>
+              <NavBar/>
+
+              <Route path="/" exact render={(props) => <Home {...props} />}/>
+              <Route path="/resume" exact render={(props) => <Resume {...props} />}/>
+
+              <Footer/>
+            </div>
+          </ScrollToTop>
+        </Router>
       </div>
     )
   }
-  
-  
-  changePage(page) {
-    this.setState({page:page});
-    window.scrollTo(0, 0);
-  }
-  
-  
+
 }
-export default App;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css'
-import {Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink} from 'reactstrap';
+import {Collapse, Nav, Navbar, NavbarToggler, NavItem} from 'reactstrap';
+import {Link} from "react-router-dom";
 
 
 class NavBar extends React.Component {
@@ -38,9 +39,14 @@ class NavBar extends React.Component {
   render() {
     return(
       <div>
-        <Navbar scrolling dark expand="md" fixed="top" className={this.state.atTop ? '' : 'bgdark'}>
-          <NavbarBrand onClick={() => this.props.changePage('Home')}><h1
-              style={{'fontWeight': '200', 'letterSpacing': '-9px'}}>NH</h1></NavbarBrand>
+        <Navbar dark expand="md" fixed="top" className={this.state.atTop ? '' : 'bgdark'}>
+          <div className={'navbar-brand'}>
+            <Link to="/" style={{color: 'white'}}>
+              <h1 style={{'fontWeight': '200', 'letterSpacing': '-9px'}}>
+                NH
+              </h1>
+            </Link>
+          </div>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -48,7 +54,7 @@ class NavBar extends React.Component {
                 {/*  <NavLink onClick={() => this.props.changePage('Projects')}>Projects</NavLink>*/}
                 {/*</NavItem>*/}
               <NavItem>
-                <NavLink onClick={() => this.props.changePage('Resume')}>Resume</NavLink>
+                <Link to="/resume/" style={{color: 'white'}}>Resume</Link>
               </NavItem>
             </Nav>
           </Collapse>

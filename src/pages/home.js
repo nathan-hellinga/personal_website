@@ -2,7 +2,7 @@ import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import mainPic from '../images/italy.jpg';
 import './home.css';
-import Button from '../components/button'
+import {Link} from "react-router-dom";
 
 var moment = require('moment');
 moment().format();
@@ -88,11 +88,9 @@ class Home extends React.Component {
         
         <Container className={'contentBlock'}>
           <Row>
-            <Col>
-              <Button text={'Projects'} clicked={() => this.props.changePage('Projects')}/>
-            </Col>
-            <Col>
-              <Button text={'Resume'} clicked={() => this.props.changePage('Resume')}/>
+            <Col style={{textAlign: 'center'}}>
+              <Link className={'button'} to="/resume/">Resume</Link>
+              {/*<Button text={'Projects'} clicked={() => this.props.changePage('Projects')}/>*/}
             </Col>
           </Row>
         </Container>

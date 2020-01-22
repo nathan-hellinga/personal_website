@@ -68,15 +68,30 @@ class Resume extends React.Component {
                     <Row>
                         <Col>
                             <ul>
-                                <li>Experienced with coding in Java, VBA, JS, C#, C++, Python, SQL and more</li>
+                                <li>Experienced with coding in Java, VBA, JS, C#, Python, SQL and more</li>
+                                <li>Used many popular frameworks</li>
+                                <ul>
+                                    <li>
+                                        WEB: React, Angular, Express, Flask
+                                    </li>
+                                    <li>
+                                        DATA SCIENCE: Pandas, Numpy, MatPlotLib
+                                    </li>
+                                    <li>
+                                        MACHINE LEARNING: Tensorflow, Keras, PyTorch
+                                    </li>
+                                </ul>
+                                <li>
+                                    Skills in implementing, training and testing machine learning computer vision solutions
+                                </li>
                                 <li>Proficient with the use of the Windows platform and Microsoft Office suite</li>
                                 <ul>
                                     <li>Excel: Data analysis, macros, regression and custom-built automation scripts
                                     </li>
                                 </ul>
-                                <li>Experience in all major operating systems (Windows, Linux, Mac OS)</li>
-                                <li>Adept with implementing, managing and developing on Amazon Cloud Services</li>
-                                <li>Skilled with diagnosing, replacing, upgrading and assembling computer hardware</li>
+                                <li>
+                                    Quick and effective learner
+                                </li>
                             </ul>
                         </Col>
                     </Row>
@@ -85,6 +100,32 @@ class Resume extends React.Component {
                     <hr/>
                     <Row>
                         <Col>
+                            <div className={'resumeItem'}>
+                                <p className={'alignLeft'}>
+                                    Developer
+                                </p>
+                                <p className={'alignRight'}>
+                                    January 2019 - current
+                                </p>
+                                <p style={{'clear': 'both'}}>
+                                    Ministry of Transportation, St. Catharines, Ontario
+                                </p>
+                                <ul>
+                                    <li>
+                                        Kickstarted projects by creating viable demo software and presenting it to potential clients
+                                    </li>
+                                    <li>
+                                        Trained a computer vision model to detect road signs for automatic municipal inventory systems
+                                    </li>
+                                    <li>
+                                        Created a proof of concept digital identity mobile app
+                                    </li>
+                                    <li>
+                                        Worked as a core developer on a project to build an internal Learning and Development platform using Agile software practises
+                                    </li>
+                                </ul>
+                            </div>
+
                             <div className={'resumeItem'}>
                                 <p className={'alignLeft'}>
                                     Systems Developer
@@ -174,9 +215,7 @@ class Resume extends React.Component {
     }
 
     downloadResume = () => {
-        //TODO update this entire page and my resume
-        console.log('this is outdated and the whole page needs to be updated');
-        window.location.href = 'https://drive.google.com/uc?export=download&id=1KRsF2xe7PH4dLHyzaCjmdroCYlgfUW6k';
+        window.location.href = 'https://drive.google.com/uc?export=download&id=1FMV4QPLIe_TqZci3KYACnqODWkfUj0bt';
     }
 
 }

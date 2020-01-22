@@ -77,7 +77,6 @@ class Home extends React.Component {
               </h6>
               <ul className={''}>
                 <li>GoLang</li>
-                <li>Sensor dashboard for beer brewing</li>
                 <li>Django</li>
                 <li>React Native</li>
                 <li>Ruby & Ruby on Rails</li>

@@ -223,7 +223,7 @@ class Resume extends React.Component {
     }
 
     downloadResume = () => {
-        window.location.href = 'https://drive.google.com/uc?export=download&id=1FMV4QPLIe_TqZci3KYACnqODWkfUj0bt';
+        window.location.href = 'https://drive.google.com/uc?export=download&id=1v_gdgjaAHPzQ5071WoopGjIpNFFAxp0J';
     }
 
 }

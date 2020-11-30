@@ -48,18 +48,6 @@ class Resume extends React.Component {
                                     <li>Minor in Business</li>
                                 </ul>
                             </div>
-                            <div className={'resumeItem'}>
-                                <p className={'alignLeft'}>
-                                    Bachelors of Engineering - Mechanical Engineering
-                                </p>
-                                <p className={'alignRight'}>
-                                    September 2014 - April 2015
-                                </p>
-                                <p style={{'clear':'both'}}>
-                                    Conestoga College, Waterloo, Ontario
-                                </p>
-                            </div>
-
                         </Col>
                     </Row>
 
@@ -68,7 +56,7 @@ class Resume extends React.Component {
                     <Row>
                         <Col>
                             <ul>
-                                <li>Experienced with coding in Java, VBA, JS, C#, Python, SQL and more</li>
+                                <li>Experienced with coding in Java, VBA, JS, C#, Python and more</li>
                                 <li>Used many popular frameworks</li>
                                 <ul>
                                     <li>
@@ -78,7 +66,10 @@ class Resume extends React.Component {
                                         DATA SCIENCE: Pandas, Numpy, MatPlotLib
                                     </li>
                                     <li>
-                                        MACHINE LEARNING: Tensorflow, Keras, PyTorch
+                                        MACHINE LEARNING: Tensorflow, Keras, PyTorch, Detectron 2
+                                    </li>
+                                    <li>
+                                        MOBILE: React-Native, Expo
                                     </li>
                                 </ul>
                                 <li>
@@ -89,6 +80,9 @@ class Resume extends React.Component {
                                     <li>Excel: Data analysis, macros, regression and custom-built automation scripts
                                     </li>
                                 </ul>
+                                <li>
+                                    Experience with creating and managing web server infrastructure
+                                </li>
                                 <li>
                                     Quick and effective learner
                                 </li>
@@ -105,7 +99,27 @@ class Resume extends React.Component {
                                     Developer
                                 </p>
                                 <p className={'alignRight'}>
-                                    January 2019 - current
+                                    May 2020 - September 2020
+                                </p>
+                                <p style={{'clear': 'both'}}>
+                                    TES Information Technology, Kitchener, Ontario
+                                </p>
+                                <ul>
+                                    <li>
+                                        Created new business streams by training and evaluating a machine learning model to detect Ontario road signs from dashcam footage
+                                    </li>
+                                    <li>
+                                        Worked effectively as a team by developing remote working habits
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className={'resumeItem'}>
+                                <p className={'alignLeft'}>
+                                    Developer
+                                </p>
+                                <p className={'alignRight'}>
+                                    January 2019 - April 2020
                                 </p>
                                 <p style={{'clear': 'both'}}>
                                     Ministry of Transportation, St. Catharines, Ontario
@@ -122,6 +136,32 @@ class Resume extends React.Component {
                                     </li>
                                     <li>
                                         Worked as a core developer on a project to build an internal Learning and Development platform using Agile software practises
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className={'resumeItem'}>
+                                <p className={'alignLeft'}>
+                                    IT Analyst
+                                </p>
+                                <p className={'alignRight'}>
+                                    January 2018 - April 2018
+                                </p>
+                                <p style={{'clear': 'both'}}>
+                                    Federal Economic Development Agency, Waterloo, Ontario
+                                </p>
+                                <ul>
+                                    <li>Significantly increased productivity by implementing a cloud-based asset
+                                        management system
+                                    </li>
+                                    <li>Reduced confusion and replacement costs by introducing all new protocols for
+                                        employee IT asset lifecycles
+                                    </li>
+                                    <li>Improved office productivity by keeping systems running and quickly solving
+                                        technical problems
+                                    </li>
+                                    <li>Learned a lot about an office environment while producing performance reports,
+                                        participating in conference calls and attending meetings to setup cloud services
                                     </li>
                                 </ul>
                             </div>
@@ -150,32 +190,6 @@ class Resume extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-
-                            <div className={'resumeItem'}>
-                                <p className={'alignLeft'}>
-                                    IT Analyst
-                                </p>
-                                <p className={'alignRight'}>
-                                    January - April 2018
-                                </p>
-                                <p style={{'clear': 'both'}}>
-                                    Federal Economic Development Agency, Waterloo, Ontario
-                                </p>
-                                <ul>
-                                    <li>Significantly increased productivity by implementing a cloud-based asset
-                                        management system
-                                    </li>
-                                    <li>Reduced confusion and replacement costs by introducing all new protocols for
-                                        employee IT asset lifecycles
-                                    </li>
-                                    <li>Improved office productivity by keeping systems running and quickly solving
-                                        technical problems
-                                    </li>
-                                    <li>Learned a lot about an office environment while producing performance reports,
-                                        participating in conference calls and attending meetings to setup cloud services
-                                    </li>
-                                </ul>
-                            </div>
                         </Col>
                     </Row>
 
@@ -188,16 +202,10 @@ class Resume extends React.Component {
                                 <ul>
                                     <li>Created a full Utility-Based AI Agent to play against users</li>
                                 </ul>
-                                <li>FIRST Robotics</li>
+                                <li>COSC 4F00 - Software Development</li>
                                 <ul>
-                                    <li>Competed in the Waterloo competition and contributed design decisions, component
-                                        manufacturing and operation advice to the team
-                                    </li>
-                                </ul>
-                                <li>Web Development</li>
-                                <ul>
-                                    <li>Worked with and implemented open source solutions (Asset Management, LAMP,
-                                        etc.)
+                                    <li>
+                                        Achieved first place by developing a drag and drop website creation tool
                                     </li>
                                 </ul>
                             </ul>

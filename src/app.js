@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 //TRACKING
 import ReactGA from 'react-ga';
 import ScrollToTop from "./components/ScrollToTop";
+import Portfolio from "./pages/portfolio";
 
 
 export default class App extends React.Component {
@@ -26,10 +27,9 @@ export default class App extends React.Component {
           <ScrollToTop>
             <div>
               <NavBar/>
-
-              <Route path="/" exact render={(props) => <Home {...props} />}/>
+                <Route path="/" exact render={(props) => <Home {...props} />}/>
               <Route path="/resume" exact render={(props) => <Resume {...props} />}/>
-
+              <Route path="/portfolio" exact render={(props) => <Portfolio {...props} />}/>
               <Footer/>
             </div>
           </ScrollToTop>

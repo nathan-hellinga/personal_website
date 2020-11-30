@@ -1,0 +1,28 @@
+.title{
+    padding-top: 100px;
+}
+
+.projectTitle{
+    margin-top: 10px;
+}
+.projectTitle a{
+    color: inherit;
+}
+.projectTitle a:hover{
+    color: inherit;
+}
+
+.embedVideo{
+    width: 100%;
+    height: 300px;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolioImage{
+    width: 80%;
+    margin: 5px 10%;
+    border-radius: 10px;
+    border: 1px solid #3a3a47;
+}

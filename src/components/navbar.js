@@ -53,10 +53,14 @@ class NavBar extends React.Component {
                 {/*<NavItem>*/}
                 {/*  <NavLink onClick={() => this.props.changePage('Projects')}>Projects</NavLink>*/}
                 {/*</NavItem>*/}
-              <NavItem>
+              <NavItem style={{marginLeft: '20px'}}>
                 <Link to="/resume/" style={{color: 'white'}}>Resume</Link>
               </NavItem>
+              <NavItem style={{marginLeft: '20px'}}>
+                <Link to="/portfolio/" style={{color: 'white'}}>Portfolio</Link>
+              </NavItem>
             </Nav>
+
           </Collapse>
         </Navbar>
       </div>

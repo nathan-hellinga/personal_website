@@ -40,7 +40,7 @@ class Home extends React.Component {
           <Row>
             <Col>
               <h1 className={'lightFont center-text'}>
-                Hi, I'm Nathan, A fourth year Computer Science student at Brock University. Here is some stuff.
+                Hi, I'm Nathan, A fourth year Computer Science student at Brock University. Here is some information about myself.
               </h1>
             </Col>
           </Row>
@@ -51,7 +51,9 @@ class Home extends React.Component {
                 About Me
               </h3>
               <p>
-                I, Nathan Hellinga, am a 4th year computer science student at Brock University. Currently, I work for the Ontario Ministry of Transportation as a Developer where I've done work involving AI, Machine Learning, Computer vision and much more. Throughout my life I have always been intrigued and inspired by space, the final frontier, the great expanse, and aspire to one day contribute to the exploration and discovery of our universe.
+                I am a 4th year computer science student at Brock University.
+                I enjoy tinkering with 3d printing technology in conjunctions with RC hobbies.
+                I am an avid home-brewer, ask me about my recipes! I grew up in Waterloo and now currently live in St. Catharines.
               </p>
             </Col>
             
@@ -63,7 +65,7 @@ class Home extends React.Component {
                 <li>Java, Python, C#, Javascript</li>
                 <li>NOSQL (MongoDB), SQL</li>
                 <li>REST API, Mobile app development, Cloud computing, Full stack deployment</li>
-                <li>Flask, Angular, React, Ionic</li>
+                <li>Flask, Angular, React, Ionic, React-Native</li>
                 <li>Machine Learning, Computer Vision</li>
               </ul>
             </Col>
@@ -78,7 +80,6 @@ class Home extends React.Component {
               <ul className={''}>
                 <li>GoLang</li>
                 <li>Django</li>
-                <li>React Native</li>
                 <li>Ruby & Ruby on Rails</li>
               </ul>
             </Col>

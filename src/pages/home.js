@@ -51,9 +51,9 @@ class Home extends React.Component {
                 About Me
               </h3>
               <p>
-                I am a 4th year computer science student at Brock University.
-                I enjoy tinkering with 3d printing technology in conjunctions with RC hobbies.
-                I am an avid home-brewer, ask me about my recipes! I grew up in Waterloo and now currently live in St. Catharines.
+                I was raised in Waterloo, Ontario, and currently live in St Catharines. I am an avid homebrewer, usually with some new experiment on
+                the go. I enjoy tinkering with electronics, in particular combining RC vehicles with 3D printing.
+                Ever since I was a kid I have been interested in computers and video games and have been programming different things for over 10 years.
               </p>
             </Col>
             
@@ -62,10 +62,10 @@ class Home extends React.Component {
                 Software Development
               </h3>
               <ul className={''}>
-                <li>Java, Python, C#, Javascript</li>
+                <li>Java, Python, C#, Javascript, Haskell(ish)</li>
                 <li>NOSQL (MongoDB), SQL</li>
-                <li>REST API, Mobile app development, Cloud computing, Full stack deployment</li>
-                <li>Flask, Angular, React, Ionic, React-Native</li>
+                <li>REST API, Mobile app development, Full stack deployment</li>
+                <li>React, React-Native, Express, Flask, Angular, Ionic</li>
                 <li>Machine Learning, Computer Vision</li>
               </ul>
             </Col>
@@ -78,6 +78,7 @@ class Home extends React.Component {
                 These are some projects, frameworks or languages that I would like to tackle in the future.
               </h6>
               <ul className={''}>
+                <li>Unity</li>
                 <li>GoLang</li>
                 <li>Django</li>
                 <li>Ruby & Ruby on Rails</li>

@@ -10,16 +10,18 @@ export default class Portfolio extends Component {
           {/*Padding for navbar*/}
           <div style={{height: '100px'}} />
           {/*Main page content*/}
+
+          {/*MAIN HEADING*/}
           <h1 className={style.projectTitle}>Portfolio</h1>
           <p>
-            Since you are already here we might as well talk about this site first. This site is developed with <a href={"https://github.com/facebook/react"}>React.js</a> and
-             hosted on a Digital Ocean droplet (where I do all of my hosting). This shows that I have experience with the backend infrastructure required to host a website after it has been developed.
+            Since you are already here we might as well talk about this site first. This site is developed with <a href={"https://github.com/facebook/react"}>React.js</a> and hosted on a Digital Ocean droplet (where I do all of my hosting). This let me get experience with the backend infrastructure required to host a website after it has been developed as practise before starting my next project below.
           </p>
+
+          {/*DND TOOLBOX*/}
           <h1 className={style.projectTitle}><a href={"https://www.dndtoolbox.app/"}>DND Toolbox</a></h1>
           <a href={"https://www.dndtoolbox.app/"}>
             <img alt={"DND toolbox marketing image"} className={style.portfolioImage} src={require("../images/dndtoolbox_showcase.png")} />
           </a>
-
           <p>
             DND Toolbox is a web-app designed and developed entirely by myself. The site provides a place where users can create
             ARPG style items for their tabletop role playing games. The site also provides group functionality inspired by apps like Discord. This
@@ -34,6 +36,7 @@ export default class Portfolio extends Component {
             Head over and check out the site!
           </p>
 
+          {/*PROJECT WIXS*/}
           <h1 className={style.projectTitle}>Project Wixs</h1>
             <iframe className={style.embedVideo} src={"https://www.youtube.com/embed/MIzRWGwgeU4"} />
           <p>
@@ -46,21 +49,20 @@ export default class Portfolio extends Component {
             in our database and then re-build that JSON back into a fully editable and adjustable page for the user.
           </p>
 
+          {/*ROAD SIGN DETECTION*/}
+          <h1 className={style.projectTitle}>Road Sign Management</h1>
+          <iframe className={style.embedVideo} src={"https://www.youtube.com/embed/teOjXqCcvv4"}/>
+          <p>
+            While working for <a href={"https://www.tes.ca/"}>TES Information Technologies</a> I developed the machine learning computer vision model displayed in the above video. This was developed using Facebook's <a href={"https://github.com/facebookresearch/detectron2"}>Detectron 2</a> Python machine learning library. The system sports a GUI for evaluation validation that utilizes <a href={"https://opencv.org/"}>OpenCV</a>. This project also included development of in house data management utilities for the massive training data that interacted with AWS S3 servers to hot load training data.
+          </p>
+
+          {/*DOUBLE HALVE*/}
           <h1 className={style.projectTitle}>Double Halve</h1>
           <img className={style.portfolioImage} src={require("../images/feature image.png")} alt={"double halve showcase"}/>
           <p>
             This is a fun little App that I developed while learning <a href={"https://reactnative.dev/"}>React-Native</a>. This
-            app is a puzzle game similar to games like "2048" where the player manipulates numbers until they get to a goal.
+            app is a puzzle game similar to games like "2048" where the player manipulates numbers until they get to a goal. The app is currently under review by Google and will be available on the Google Play store once approved.
           </p>
-
-          <h1 className={style.projectTitle}>Road Sign Management</h1>
-          <iframe className={style.embedVideo} src={"https://www.youtube.com/embed/teOjXqCcvv4"}/>
-          <p>
-            While working for <a href={"https://www.tes.ca/"}>TES Information Technologies</a> I developed the machine learning computer vision
-            model displayed in the above video. This was developed using Facebook's <a href={"https://github.com/facebookresearch/detectron2"}>Detectron 2</a> Python
-            machine learning library.
-          </p>
-
         </Container>
       </div>
 

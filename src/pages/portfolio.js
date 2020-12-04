@@ -61,7 +61,7 @@ export default class Portfolio extends Component {
           <img className={style.portfolioImage} src={require("../images/feature image.png")} alt={"double halve showcase"}/>
           <p>
             This is a fun little App that I developed while learning <a href={"https://reactnative.dev/"}>React-Native</a>. This
-            app is a puzzle game similar to games like "2048" where the player manipulates numbers until they get to a goal. The app is currently under review by Google and will be available on the Google Play store once approved.
+            app is a puzzle game similar to games like "2048" where the player manipulates numbers until they get to a goal. You can find the app on the <a href={"https://play.google.com/store/apps/details?id=com.nathanhellinga.BrusselsChoice"}>Google Play Store</a>.
           </p>
         </Container>
       </div>

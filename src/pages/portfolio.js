@@ -63,6 +63,13 @@ export default class Portfolio extends Component {
             This is a fun little App that I developed while learning <a href={"https://reactnative.dev/"}>React-Native</a>. This
             app is a puzzle game similar to games like "2048" where the player manipulates numbers until they get to a goal. You can find the app on the <a href={"https://play.google.com/store/apps/details?id=com.nathanhellinga.BrusselsChoice"}>Google Play Store</a>.
           </p>
+
+          {/*ON Wallet*/}
+          <h1 className={style.projectTitle}>ON Wallet</h1>
+          <img className={style.portfolioImage} src={require("../images/ONWallet.png")} alt={"ON Wallet showcase"}/>
+          <p>
+            While working at the Ontario Ministry of Transportation (MTO) I helped to develop a proof of concept app for digital government identification cards. This app supported full key pair encrypted data with mechanisms for proving identity through QR codes or directly over NFC. This app also addressed issues with digital identities and offline verification. This app was built with <a href={"https://github.com/ionic-team/ionic-framework"}>Ionic framework </a> and supported by a <a href={"https://github.com/pallets/flask"}>Flask</a> backend which handled all of the encryption.
+          </p>
         </Container>
       </div>
 

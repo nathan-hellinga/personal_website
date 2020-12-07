@@ -22,7 +22,14 @@
 
 .portfolioImage{
     width: 80%;
-    margin: 5px 10%;
+    margin: 15px 10%;
     border-radius: 10px;
     border: 1px solid #3a3a47;
+}
+
+@media only screen and (max-width: 1000px) {
+    .portfolioImage{
+        width: 95%;
+        margin: 15px 2.5%;
+    }
 }

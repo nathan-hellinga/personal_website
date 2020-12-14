@@ -39,7 +39,7 @@ class Resume extends React.Component {
                                     Honors Bachelor of Science - Computer Science Co-op
                                 </p>
                                 <p className={'alignRight'}>
-                                    September 2017 - Present
+                                    September 2017 - December 2020
                                 </p>
                                 <p style={{'clear':'both'}}>
                                     Brock University, St Catharines, Ontario
@@ -75,11 +75,6 @@ class Resume extends React.Component {
                                 <li>
                                     Skills in implementing, training and testing machine learning computer vision solutions
                                 </li>
-                                <li>Proficient with the use of the Windows platform and Microsoft Office suite</li>
-                                <ul>
-                                    <li>Excel: Data analysis, macros, regression and custom-built automation scripts
-                                    </li>
-                                </ul>
                                 <li>
                                     Experience with creating and managing web server infrastructure
                                 </li>
@@ -109,7 +104,7 @@ class Resume extends React.Component {
                                         Created new business streams by training and evaluating a machine learning model to detect Ontario road signs from dashcam footage
                                     </li>
                                     <li>
-                                        Worked effectively as a team by developing remote working habits
+                                        Worked effectively as a team, developing remote work habits
                                     </li>
                                 </ul>
                             </div>

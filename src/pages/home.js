@@ -40,7 +40,7 @@ class Home extends React.Component {
           <Row>
             <Col>
               <h1 className={'lightFont center-text'}>
-                Hi, I'm Nathan, A fourth year Computer Science student at Brock University. Here is some information about myself.
+                Hi, I'm Nathan, a recent Computer Science Grad. Here is some information about myself.
               </h1>
             </Col>
           </Row>

@@ -39,7 +39,7 @@ class Resume extends React.Component {
                                     Honors Bachelor of Science - Computer Science Co-op
                                 </p>
                                 <p className={'alignRight'}>
-                                    September 2017 - December 2020
+                                    September 2016 - December 2020
                                 </p>
                                 <p style={{'clear':'both'}}>
                                     Brock University, St Catharines, Ontario

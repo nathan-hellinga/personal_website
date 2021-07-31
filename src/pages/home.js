@@ -9,9 +9,9 @@ moment().format();
 
 
 class Home extends React.Component {
-  
+
   render() {
-    return(
+    return (
       <div>
         <div className={'imageOverlay'}>
           <img src={mainPic} className={'fullWidthImage'} alt={'Banner'}/>
@@ -35,7 +35,7 @@ class Home extends React.Component {
             </svg>
           </div>
         </div>
-        
+
         <Container className={'contentBlock'}>
           <Row>
             <Col>
@@ -44,19 +44,21 @@ class Home extends React.Component {
               </h1>
             </Col>
           </Row>
-          
+
           <Row>
             <Col md='4'>
               <h3 className={''}>
                 About Me
               </h3>
               <p>
-                I was raised in Waterloo, Ontario, and currently live in St Catharines. I am an avid homebrewer, usually with some new experiment on
+                I was raised in Waterloo, Ontario, and currently live in St Catharines. I am an avid homebrewer, usually
+                with some new experiment on
                 the go. I enjoy tinkering with electronics, in particular combining RC vehicles with 3D printing.
-                Ever since I was a kid I have been interested in computers and video games and have been programming different things for over 10 years.
+                Ever since I was a kid I have been interested in computers and video games and have been programming
+                different things for over 10 years.
               </p>
             </Col>
-            
+
             <Col md='4'>
               <h3 className={''}>
                 Software Development
@@ -69,7 +71,7 @@ class Home extends React.Component {
                 <li>Machine Learning, Computer Vision</li>
               </ul>
             </Col>
-            
+
             <Col md='4'>
               <h3 className={''}>
                 Future Goals
@@ -86,7 +88,7 @@ class Home extends React.Component {
             </Col>
           </Row>
         </Container>
-        
+
         <Container className={'contentBlock'}>
           <Row>
             <Col style={{textAlign: 'center'}}>
@@ -97,19 +99,20 @@ class Home extends React.Component {
         </Container>
 
       </div>
-      
+
     )
   }
-  
-  
+
+
   test = () => {
     console.log("testing");
   }
-  
+
   getAge = () => {
     var today = moment();
     return (today.diff(moment([1996, 2, 2]), 'year'))
   }
-  
+
 }
+
 export default Home;

@@ -21,13 +21,13 @@ export default class App extends React.Component {
 
   render() {
 
-    return(
+    return (
       <div className={'App'}>
         <Router>
           <ScrollToTop>
             <div>
               <NavBar/>
-                <Route path="/" exact render={(props) => <Home {...props} />}/>
+              <Route path="/" exact render={(props) => <Home {...props} />}/>
               <Route path="/resume" exact render={(props) => <Resume {...props} />}/>
               <Route path="/portfolio" exact render={(props) => <Portfolio {...props} />}/>
               <Footer/>
